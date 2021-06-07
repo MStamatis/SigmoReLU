@@ -9,7 +9,7 @@ def SigmoReLU(x):
   """
   The gradients are automatically calculated on TF2
   """
-  return K.maximum(tf.keras.actications.relu(x), tf.keras.actications.sigmoid(x))
+  return K.maximum(tf.keras.activations.relu(x), tf.keras.activations.sigmoid(x))
   
 #usage between convolution layers
 get_custom_objects().update({'SigmoReLU':
