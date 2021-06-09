@@ -1,6 +1,7 @@
 """
 Python (Keras) implemenation of SigmoReLU activation function used in 
 "SigmoReLU: An improvement activation function by combining Sigmoid and ReLU",
+https://www.preprints.org/manuscript/202106.0252/v1?utm_source=twitter&utm_medium=cpc&utm_campaign=from
 """
 from tensorflow.keras import backend as K
 from tensorflow.keras.layers import Input, Conv2D, Lambda
